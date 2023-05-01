@@ -12,4 +12,5 @@
   </picture>
   <content>DataProcessor.ЗаменаОтветственногоНаСкладах</content>
   <content>DataProcessor.ЗаполнениеКурсаВалюты</content>
+  <content>CommonForm.ПерваяФорма</content>
 </mdclass:Subsystem>

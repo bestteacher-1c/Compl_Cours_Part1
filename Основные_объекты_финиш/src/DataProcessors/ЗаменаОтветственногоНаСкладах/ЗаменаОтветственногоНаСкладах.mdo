@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c615c40-dba7-4940-aa3c-d3160360eb93">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="181c2185-f4dd-408e-829b-0077a3119227">
   <producedTypes>
-    <objectType typeId="7a180d36-e506-4a7c-890e-bdbacb30f767" valueTypeId="7b600d58-3841-4621-b3ba-3ef40e26b87c"/>
-    <managerType typeId="7878a9c4-0ee0-45c6-95a9-3b5c1fc98678" valueTypeId="262ff9f1-fe1d-4338-98c5-63ad4904ea5e"/>
+    <objectType typeId="56a5c0ff-dea7-460c-8f03-454336f4f913" valueTypeId="4573bb33-344b-44af-a4c0-8601305eaaba"/>
+    <managerType typeId="170ecc47-426c-49cd-a79e-5eb010a9ac76" valueTypeId="8fddd0c2-3c1d-4076-abee-91155b179482"/>
   </producedTypes>
   <name>ЗаменаОтветственногоНаСкладах</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЗаменаОтветственногоНаСкладах.Form.Форма</defaultForm>
-  <attributes uuid="5e5230ab-f85c-443b-a164-48ac04055e65">
+  <attributes uuid="8629e291-f01e-4e34-8210-ea272ffac31b">
     <name>КогоМеняем</name>
     <synonym>
       <key>ru</key>
@@ -23,7 +23,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="4f86a7ef-2f29-438e-9bf4-e04e7f1a9a8a">
+  <attributes uuid="d40cf375-0c0c-4e32-9848-27a70742046d">
     <name>НаКогоМеняем</name>
     <synonym>
       <key>ru</key>
@@ -35,7 +35,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <forms uuid="72938404-9150-46cd-bb86-eb524c225203">
+  <forms uuid="c833f39a-07ca-42f4-a4a3-d054a772e9d9">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

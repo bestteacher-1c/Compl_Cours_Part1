@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bff1178-155a-4b3f-a93a-7a0092d10a79">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="672e2377-b4fd-49ae-96a0-ce528ceefb5c">
   <producedTypes>
-    <objectType typeId="c3e62641-f892-4c2a-8759-fab255d9d840" valueTypeId="a9114c42-5ba9-4d46-8ccb-ad7885aca25e"/>
-    <managerType typeId="1159a58d-892f-45f4-8c60-e19b4c2cb9dc" valueTypeId="10deed26-6203-4037-8f2f-e11f74a1e73d"/>
+    <objectType typeId="a13dc917-0f7e-4e15-9b56-490bfcb1276c" valueTypeId="aa17fed5-0f6b-434e-973a-c0a3f9cedcb4"/>
+    <managerType typeId="fe2eb5f9-1408-42ae-87e2-2c1a2d70329a" valueTypeId="6186769a-f209-453c-ad3a-a5c6dbe9f2cc"/>
   </producedTypes>
   <name>ЗаполнениеКурсаВалюты</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЗаполнениеКурсаВалюты.Form.Форма</defaultForm>
-  <forms uuid="57658264-cd96-470e-9949-968e455c9028">
+  <forms uuid="3d35f77b-c737-4486-bd01-10f3e8419a6b">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

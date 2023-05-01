@@ -417,6 +417,26 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>БуквенныйКод</name>
+    <title>
+      <key>ru</key>
+      <value>Буквенный код</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Установить</name>
     <title>

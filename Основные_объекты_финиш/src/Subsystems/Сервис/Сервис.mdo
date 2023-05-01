@@ -18,7 +18,7 @@
   <content>InformationRegister.КурсыВалют</content>
   <content>InformationRegister.НашиЦены</content>
   <content>Document.УстановкаЦен</content>
-  <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
   <content>DataProcessor.ПолнотекстовыйПоиск</content>
   <content>a429c6bf-7c00-4d91-87f6-4eaf5c5d21c8</content>
+  <content>DataProcessor.КонсольЗапросов</content>
 </mdclass:Subsystem>

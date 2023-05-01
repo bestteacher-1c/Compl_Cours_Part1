@@ -205,13 +205,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <commands uuid="9f666570-9a3d-4ae9-92a1-de7a78e09e1b">
-    <name>КонтрагентыИспользующиеВалюту</name>
+  <commands uuid="f93cc2b3-e1a9-4af1-a4a9-7ea6a0138dee">
+    <name>СообщитьКодыИНаименованиеВалюты</name>
     <synonym>
       <key>ru</key>
-      <value>Контрагенты использующие валюту</value>
+      <value>Сообщить коды и наименование валюты</value>
     </synonym>
-    <group>FormNavigationPanelGoTo</group>
+    <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>CatalogRef.Валюты</types>
     </commandParameterType>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights">
+<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
 	<setForNewObjects>true</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
@@ -191,24 +191,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ЗаменаОтветственногоНаСкладах</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</name>
-		<right>
-			<name>Use</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.КурсыВалют.Resource.Кратность</name>
 		<right>
 			<name>View</name>
@@ -309,17 +291,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы.Attribute.ВремяВыполнения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Должности</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -373,17 +344,6 @@
 	</object>
 	<object>
 		<name>Document.Реализация.TabularSection.Товары.Attribute.Количество</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -721,28 +681,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Параметры.Attribute.Идентификатор</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ПутьКФормам</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Configuration.ОсновныеОбъекты</name>
 		<right>
 			<name>Administration</name>
@@ -822,17 +760,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы.Attribute.Имя</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НашиЦены.Dimension.Номенклатура</name>
 		<right>
 			<name>View</name>
@@ -877,40 +804,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы.Attribute.Заголовок</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.Реализация.Attribute.СуммаДокумента</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Параметры.Attribute.ИдентификаторЗапроса</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ЗаменаОтветственногоНаСкладах.Attribute.НаКогоМеняем</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1294,29 +1188,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ЗаменаОтветственногоНаСкладах.Attribute.КогоМеняем</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Контрагенты.Attribute.ВидКонтрагента</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы.Attribute.КоличествоСтрок</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1426,17 +1298,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.Адреса.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Параметры.Attribute.Значение</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2426,13 +2287,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ЗаполнениеКурсаВалюты</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НашиЦены.Dimension.Контрагент</name>
 		<right>
 			<name>View</name>
@@ -2602,17 +2456,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы.Attribute.АдресРезультата</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.Поступление.TabularSection.Товары.Attribute.Количество</name>
 		<right>
 			<name>View</name>
@@ -2636,28 +2479,6 @@
 	</object>
 	<object>
 		<name>Document.Реализация.Attribute.КонтактноеЛицо</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Параметры.Attribute.Тип</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Параметры.Attribute.Имя</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2906,17 +2727,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ИмяФайла</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.Поступление.TabularSection.Товары.Attribute.Сумма</name>
 		<right>
 			<name>View</name>
@@ -3056,28 +2866,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ИспользоватьАвтосохранение</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ВыводитьВРезультатахЗапросаЗначенияСсылок</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ПриказОПриеме</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -3170,40 +2958,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы.Attribute.Текст</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.Поступление.Attribute.Менеджер</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ПериодАвтосохранения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ЧередованиеЦветовВРезультатеЗапроса</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3654,28 +3409,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ТипОбхода</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы.Attribute.Идентификатор</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.УстановкаЦен.Attribute.Контрагент</name>
 		<right>
 			<name>View</name>
@@ -3998,17 +3731,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Параметры</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ЕдиницыИзмерения</name>
 		<right>
 			<name>Read</name>
@@ -4218,17 +3940,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ДоступныеТипыДанных</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.Поступление.Attribute.СуммаДокумента</name>
 		<right>
 			<name>View</name>
@@ -4241,17 +3952,6 @@
 	</object>
 	<object>
 		<name>Document.УстановкаЦен.TabularSection.Цены.Attribute.Номенклатура</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.TabularSection.Запросы.Attribute.АдресРезультатовЗапроса</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

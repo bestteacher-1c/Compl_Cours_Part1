@@ -715,7 +715,20 @@
   </attributes>
   <commandInterface>
     <navigationPanel/>
-    <commandBar/>
+    <commandBar>
+      <cmiFragmentRecord>
+        <command>Catalog.Валюты.Command.СообщитьКодыИНаименованиеВалюты</command>
+        <type>Added</type>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.ВалютаРасчетов</segments>
+        </commandParameter>
+        <group>FormCommandBarImportant</group>
+        <index>0</index>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+    </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

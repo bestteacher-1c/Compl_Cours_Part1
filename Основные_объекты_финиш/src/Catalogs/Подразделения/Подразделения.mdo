@@ -89,4 +89,16 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <commands uuid="cc4a9be4-0cc7-4944-acc9-59afb06f3b02">
+    <name>СообщитьСписокДолжностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщить список должностей</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Подразделения</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

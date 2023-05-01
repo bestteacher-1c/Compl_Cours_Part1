@@ -13,6 +13,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0ce341cb-413c-4425-90f7-821e52efb2bc"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f62d7b4-c4c9-4b42-ab1b-5b6f761cafec"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="756b928b-c01b-4c3b-a5fa-0474d1433730"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -53,8 +54,8 @@
   <roles>Role.Кадровик</roles>
   <roles>Role.Маркетолог</roles>
   <filterCriteria>FilterCriterion.КритерийНоменклатура</filterCriteria>
-  <commonModules>CommonModule.ОбщийМодульНаСервереМожноВызватьСКлиента</commonModules>
-  <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
+  <commonModules>CommonModule.НаСервереМожноВызватьСКлиента</commonModules>
+  <commonModules>CommonModule.НаСервере</commonModules>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаПолнотекстовогоПоиска</scheduledJobs>
   <functionalOptions>FunctionalOption.УчетПоСериям</functionalOptions>
   <definedTypes>DefinedType.КоличествоТМЦ</definedTypes>
@@ -95,8 +96,8 @@
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
-  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ФИОСотрудника</informationRegisters>

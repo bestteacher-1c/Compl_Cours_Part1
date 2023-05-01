@@ -83,8 +83,6 @@
       <group>ActionsPanelTools</group>
       <commands>CommonForm.ПерваяФорма.StandardCommand.Open</commands>
       <commands>0:a429c6bf-7c00-4d91-87f6-4eaf5c5d21c8</commands>
-      <commands>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</commands>
-      <commands>DataProcessor.ПолнотекстовыйПоиск.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

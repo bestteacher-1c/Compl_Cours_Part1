@@ -11,6 +11,5 @@
     <picture>CommonPicture.Сервис</picture>
   </picture>
   <content>DataProcessor.ЗаменаОтветственногоНаСкладах</content>
-  <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
   <content>DataProcessor.ЗаполнениеКурсаВалюты</content>
 </mdclass:Subsystem>

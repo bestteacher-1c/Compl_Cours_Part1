@@ -13,6 +13,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0ce341cb-413c-4425-90f7-821e52efb2bc"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f62d7b4-c4c9-4b42-ab1b-5b6f761cafec"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e6465809-7960-4255-9603-b646c07e8601"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -47,7 +48,7 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.Кадры</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
-  <commonModules>CommonModule.ОбщийМодульНаСервереМожноВызватьСКлиента</commonModules>
+  <commonModules>CommonModule.НаСервереМожноВызватьСКлиента</commonModules>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <constants>Constant.НазваниеОрганизации</constants>
@@ -81,7 +82,6 @@
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
-  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>

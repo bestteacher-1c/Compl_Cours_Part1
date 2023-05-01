@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Обновление индекса полнотекстового поиска</value>
   </synonym>
-  <methodName>CommonModule.ОбщийМодульНаСервере.ОбновлениеИндексаПолнотекстовогоПоиска</methodName>
+  <methodName>CommonModule.НаСервере.ОбновлениеИндексаПолнотекстовогоПоиска</methodName>
   <description>ОбновлениеИндексаПолнотекстовогоПоиска</description>
   <key>ОбновлениеИндексаПолнотекстовогоПоиска</key>
   <use>true</use>

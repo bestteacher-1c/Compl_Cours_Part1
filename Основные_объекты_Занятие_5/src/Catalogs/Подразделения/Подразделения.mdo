@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2498435e-5188-44a3-baba-6c3df2c03138">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2498435e-5188-44a3-baba-6c3df2c03138">
   <producedTypes>
     <objectType typeId="0cca2dae-38a0-4246-99eb-8a7005c355e3" valueTypeId="a53c35e3-017c-48ce-907f-8a0a5a8d1844"/>
     <refType typeId="e1b9eafc-ff71-4ffb-acdb-c53d672e7735" valueTypeId="f3945e0f-ed45-4721-a57d-ba215399d09c"/>
@@ -48,4 +48,29 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="daf5a120-4379-4d92-95d8-5b7749872f94">
+    <producedTypes>
+      <objectType typeId="95f58a54-898d-4589-8e4d-db147deb437b" valueTypeId="22c44a76-04a7-4153-855e-a17a256c06fd"/>
+      <rowType typeId="b6186f8b-741e-4d95-b42e-bc753c785415" valueTypeId="d968a4e9-5259-424d-a43d-426491bde71c"/>
+    </producedTypes>
+    <name>Должности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности</value>
+    </synonym>
+    <attributes uuid="1f8398c6-91d9-4638-a93e-01e8c255c22e">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Должности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>

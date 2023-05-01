@@ -64,4 +64,29 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="ebfbe038-50de-42aa-9faa-f2f2c7df776a">
+    <producedTypes>
+      <objectType typeId="c22b892c-ef9e-4e8f-88cf-7b691f05d39b" valueTypeId="2b86e837-3125-40bb-aa6c-328267f39ec5"/>
+      <rowType typeId="23d482ce-0c85-4168-863a-41b5e1080d24" valueTypeId="76f5e9b7-54cc-40c8-ac67-7a63914f899c"/>
+    </producedTypes>
+    <name>Должности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности</value>
+    </synonym>
+    <attributes uuid="f908909a-9160-4f7a-81cd-a4fcd8ba1bc0">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Должности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>

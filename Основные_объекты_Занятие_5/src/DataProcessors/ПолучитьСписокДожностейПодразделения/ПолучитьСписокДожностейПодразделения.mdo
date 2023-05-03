@@ -4,13 +4,13 @@
     <objectType typeId="e58ac01a-027f-4a6c-8839-fd6bb4f7a453" valueTypeId="d2c8bb2f-2acf-4dc9-bd29-d4046703c9d7"/>
     <managerType typeId="c15a8df3-f403-4248-97f2-43d0e1e60d6f" valueTypeId="4da8f3a1-b0f0-4214-bd56-34338386e667"/>
   </producedTypes>
-  <name>СообщитьСписокДожностейПодразделения</name>
+  <name>ПолучитьСписокДожностейПодразделения</name>
   <synonym>
     <key>ru</key>
-    <value>Сообщить список дожностей подразделения</value>
+    <value>Получить список дожностей подразделения</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.СообщитьСписокДожностейПодразделения.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ПолучитьСписокДожностейПодразделения.Form.Форма</defaultForm>
   <forms uuid="e8eee35d-b261-499f-b0ec-ae522536661c">
     <name>Форма</name>
     <synonym>

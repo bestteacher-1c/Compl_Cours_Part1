@@ -82,7 +82,7 @@
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
-  <dataProcessors>DataProcessor.СообщитьСписокДожностейПодразделения</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьСписокДожностейПодразделения</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>

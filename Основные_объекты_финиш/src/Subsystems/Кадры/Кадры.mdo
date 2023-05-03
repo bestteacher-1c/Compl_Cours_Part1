@@ -18,5 +18,5 @@
   <content>DocumentJournal.Кадровый</content>
   <content>Catalog.Должности</content>
   <content>InformationRegister.ФИОСотрудника</content>
-  <content>DataProcessor.СообщитьСписокДожностейПодразделения</content>
+  <content>DataProcessor.ПолучитьСписокДожностейПодразделения</content>
 </mdclass:Subsystem>

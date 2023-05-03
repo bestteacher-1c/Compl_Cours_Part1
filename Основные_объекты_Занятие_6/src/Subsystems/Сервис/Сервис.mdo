@@ -22,5 +22,5 @@
   <content>CommonCommand.СообщитьДатуИВремя</content>
   <content>DataProcessor.ПолнотекстовыйПоиск</content>
   <content>DataProcessor.КонсольЗапросов</content>
-  <content>DataProcessor.СообщитьСписокДожностейПодразделения</content>
+  <content>DataProcessor.ПолучитьСписокДожностейПодразделения</content>
 </mdclass:Subsystem>

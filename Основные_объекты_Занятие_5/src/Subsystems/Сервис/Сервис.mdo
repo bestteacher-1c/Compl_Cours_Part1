@@ -14,4 +14,6 @@
   <content>DataProcessor.ЗаполнениеКурсаВалюты</content>
   <content>CommonForm.ПерваяФорма</content>
   <content>DataProcessor.ПолучитьСписокДожностейПодразделения</content>
+  <content>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</content>
+  <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
 </mdclass:Subsystem>

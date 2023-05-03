@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b28ca37b-983b-4d05-bf0b-c75af475f0b4">
+  <producedTypes>
+    <objectType typeId="d802aa48-fd12-4662-8e19-d6c195e5c976" valueTypeId="8ad4c648-d8e3-4723-ac27-8db979e2a3b5"/>
+    <managerType typeId="f695da95-6ddf-4cc3-b330-39396e01bc74" valueTypeId="29a1a459-1d56-40c7-b18f-22b174f84139"/>
+  </producedTypes>
+  <name>ПолучитьСписокПредыдущихМестРаботыСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить список предыдущих мест работы сотрудника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="a22fa1e4-a561-4b65-94e1-16894250386e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

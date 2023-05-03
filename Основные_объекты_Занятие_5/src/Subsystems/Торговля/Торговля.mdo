@@ -17,4 +17,5 @@
   <content>Document.Поступление</content>
   <content>Document.Реализация</content>
   <content>DocumentJournal.Торговый</content>
+  <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
 </mdclass:Subsystem>

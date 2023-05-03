@@ -83,6 +83,9 @@
   <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
   <dataProcessors>DataProcessor.ПолучитьСписокДожностейПодразделения</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</dataProcessors>
+  <dataProcessors>DataProcessor.УстановитьЦену</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>

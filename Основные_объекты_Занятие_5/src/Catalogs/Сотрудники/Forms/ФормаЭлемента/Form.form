@@ -101,13 +101,13 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа1</name>
+    <name>ГруппаЗакладки</name>
     <id>56</id>
     <items xsi:type="form:FormGroup">
-      <name>Группа2</name>
+      <name>ГруппаДанныеФизическогоЛица</name>
       <id>58</id>
       <items xsi:type="form:FormGroup">
-        <name>Группа5</name>
+        <name>ГруппаФИО</name>
         <id>73</id>
         <items xsi:type="form:FormField">
           <name>Наименование</name>
@@ -168,7 +168,7 @@
           </dataPath>
           <handlers>
             <event>OnChange</event>
-            <name>Поле1ПриИзменении</name>
+            <name>ФамилияПриИзменении</name>
           </handlers>
           <extendedTooltip>
             <name>ФамилияРасширеннаяПодсказка</name>
@@ -327,7 +327,7 @@
           <value>ФИО</value>
         </title>
         <extendedTooltip>
-          <name>Группа5РасширеннаяПодсказка</name>
+          <name>ГруппаФИОРасширеннаяПодсказка</name>
           <id>74</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -462,7 +462,7 @@
         <value>Данные физического лица</value>
       </title>
       <extendedTooltip>
-        <name>Группа2РасширеннаяПодсказка</name>
+        <name>ГруппаДанныеФизическогоЛицаРасширеннаяПодсказка</name>
         <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -483,7 +483,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>Группа3</name>
+      <name>ГруппаТрудовыеОбязанности</name>
       <id>60</id>
       <items xsi:type="form:FormField">
         <name>Подразделение</name>
@@ -645,7 +645,7 @@
         <value>Трудовые обязанности</value>
       </title>
       <extendedTooltip>
-        <name>Группа3РасширеннаяПодсказка</name>
+        <name>ГруппаТрудовыеОбязанностиРасширеннаяПодсказка</name>
         <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -666,10 +666,10 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>Группа4</name>
+      <name>ГруппаТрудоваяКнижка</name>
       <id>62</id>
       <items xsi:type="form:Table">
-        <name>ТрудовойСтаж</name>
+        <name>ТрудоваяКнижка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -677,7 +677,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ТрудовойСтаж</segments>
+          <segments>Объект.ТрудоваяКнижка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
@@ -689,7 +689,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТрудовойСтаж.LineNumber</segments>
+            <segments>Объект.ТрудоваяКнижка.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТрудовойСтажНомерСтрокиРасширеннаяПодсказка</name>
@@ -735,7 +735,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТрудовойСтаж.МестоРаботы</segments>
+            <segments>Объект.ТрудоваяКнижка.МестоРаботы</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТрудовойСтажМестоРаботыРасширеннаяПодсказка</name>
@@ -785,7 +785,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТрудовойСтаж.Должность</segments>
+            <segments>Объект.ТрудоваяКнижка.Должность</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТрудовойСтажДолжностьРасширеннаяПодсказка</name>
@@ -835,7 +835,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТрудовойСтаж.ДатаПриема</segments>
+            <segments>Объект.ТрудоваяКнижка.ДатаПриема</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТрудовойСтажДатаПриемаРасширеннаяПодсказка</name>
@@ -885,7 +885,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТрудовойСтаж.ДатаУвольнения</segments>
+            <segments>Объект.ТрудоваяКнижка.ДатаУвольнения</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТрудовойСтажДатаУвольненияРасширеннаяПодсказка</name>
@@ -927,7 +927,7 @@
           </extInfo>
         </items>
         <autoCommandBar>
-          <name>ТрудовойСтажКоманднаяПанель</name>
+          <name>ТрудоваяКнижкаКоманднаяПанель</name>
           <id>24</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -943,10 +943,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ТрудовойСтажСтрокаПоиска</name>
+          <name>ТрудоваяКнижкаСтрокаПоиска</name>
           <id>26</id>
           <extendedTooltip>
-            <name>ТрудовойСтажСтрокаПоискаРасширеннаяПодсказка</name>
+            <name>ТрудоваяКнижкаСтрокаПоискаРасширеннаяПодсказка</name>
             <id>30</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -961,7 +961,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТрудовойСтажСтрокаПоискаКонтекстноеМеню</name>
+            <name>ТрудоваяКнижкаСтрокаПоискаКонтекстноеМеню</name>
             <id>29</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -980,10 +980,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ТрудовойСтажСостояниеПросмотра</name>
+          <name>ТрудоваяКнижкаСостояниеПросмотра</name>
           <id>31</id>
           <extendedTooltip>
-            <name>ТрудовойСтажСостояниеПросмотраРасширеннаяПодсказка</name>
+            <name>ТрудоваяКнижкаСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>35</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -998,7 +998,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТрудовойСтажСостояниеПросмотраКонтекстноеМеню</name>
+            <name>ТрудоваяКнижкаСостояниеПросмотраКонтекстноеМеню</name>
             <id>34</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1018,10 +1018,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ТрудовойСтажУправлениеПоиском</name>
+          <name>ТрудоваяКнижкаУправлениеПоиском</name>
           <id>36</id>
           <extendedTooltip>
-            <name>ТрудовойСтажУправлениеПоискомРасширеннаяПодсказка</name>
+            <name>ТрудоваяКнижкаУправлениеПоискомРасширеннаяПодсказка</name>
             <id>40</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1036,7 +1036,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТрудовойСтажУправлениеПоискомКонтекстноеМеню</name>
+            <name>ТрудоваяКнижкаУправлениеПоискомКонтекстноеМеню</name>
             <id>39</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1051,7 +1051,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ТрудовойСтажРасширеннаяПодсказка</name>
+          <name>ТрудоваяКнижкаРасширеннаяПодсказка</name>
           <id>25</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1066,7 +1066,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ТрудовойСтажКонтекстноеМеню</name>
+          <name>ТрудоваяКнижкаКонтекстноеМеню</name>
           <id>23</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1104,10 +1104,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Трудовой стаж</value>
+        <value>Трудовая книжка</value>
       </title>
       <extendedTooltip>
-        <name>Группа4РасширеннаяПодсказка</name>
+        <name>ГруппаТрудоваяКнижкаРасширеннаяПодсказка</name>
         <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1132,8 +1132,12 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа закладки</value>
+    </title>
     <extendedTooltip>
-      <name>Группа1РасширеннаяПодсказка</name>
+      <name>ГруппаЗакладкиРасширеннаяПодсказка</name>
       <id>57</id>
       <visible>true</visible>
       <enabled>true</enabled>

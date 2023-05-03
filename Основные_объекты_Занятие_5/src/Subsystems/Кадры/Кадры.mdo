@@ -18,4 +18,5 @@
   <content>DocumentJournal.Кадровый</content>
   <content>Catalog.Должности</content>
   <content>DataProcessor.ПолучитьСписокДожностейПодразделения</content>
+  <content>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</content>
 </mdclass:Subsystem>

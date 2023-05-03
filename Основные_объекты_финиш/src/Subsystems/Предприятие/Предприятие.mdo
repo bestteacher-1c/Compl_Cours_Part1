@@ -19,6 +19,8 @@
   <content>CommonForm.ФормаКонстант</content>
   <content>DataProcessor.ЗаполнениеКурсаВалюты</content>
   <content>DataProcessor.ЗаменаОтветственногоНаСкладах</content>
+  <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
+  <content>DataProcessor.УстановитьЦену</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

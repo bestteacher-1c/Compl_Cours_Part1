@@ -23,4 +23,7 @@
   <content>DataProcessor.ПолнотекстовыйПоиск</content>
   <content>DataProcessor.КонсольЗапросов</content>
   <content>DataProcessor.ПолучитьСписокДожностейПодразделения</content>
+  <content>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</content>
+  <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
+  <content>DataProcessor.УстановитьЦену</content>
 </mdclass:Subsystem>

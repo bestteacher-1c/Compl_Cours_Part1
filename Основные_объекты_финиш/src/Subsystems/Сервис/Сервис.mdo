@@ -22,4 +22,7 @@
   <content>a429c6bf-7c00-4d91-87f6-4eaf5c5d21c8</content>
   <content>DataProcessor.КонсольЗапросов</content>
   <content>DataProcessor.ПолучитьСписокДожностейПодразделения</content>
+  <content>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</content>
+  <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
+  <content>DataProcessor.УстановитьЦену</content>
 </mdclass:Subsystem>

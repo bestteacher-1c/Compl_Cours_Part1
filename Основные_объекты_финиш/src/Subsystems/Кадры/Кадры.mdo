@@ -19,4 +19,5 @@
   <content>Catalog.Должности</content>
   <content>InformationRegister.ФИОСотрудника</content>
   <content>DataProcessor.ПолучитьСписокДожностейПодразделения</content>
+  <content>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</content>
 </mdclass:Subsystem>

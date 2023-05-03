@@ -16,4 +16,5 @@
   <content>DataProcessor.ПолучитьСписокДожностейПодразделения</content>
   <content>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</content>
   <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
+  <content>DataProcessor.УстановитьЦену</content>
 </mdclass:Subsystem>

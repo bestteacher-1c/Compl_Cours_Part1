@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c6e2bf2-7887-4cce-90e0-40a5814db6aa">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41bc518a-1993-4d2a-b07d-2ff821194403">
   <producedTypes>
-    <objectType typeId="06362529-cb0a-48d6-8f14-1da997791404" valueTypeId="40d77bb7-650c-4bf4-ad65-c858727b0197"/>
-    <managerType typeId="c9db3ef3-996e-4307-8afd-376305033b88" valueTypeId="a1fdb8e0-56b3-4d4a-9a51-7c1dd42a1fc4"/>
+    <objectType typeId="797788ac-1ab9-4505-bdd3-50ad5214e34f" valueTypeId="92fa3856-664b-4c66-886b-21aa80aca872"/>
+    <managerType typeId="cb876cb7-e2e3-4b30-9d92-6fb51f9b6e01" valueTypeId="d43cd1ec-fb0b-4301-a88e-037447f586f0"/>
   </producedTypes>
   <name>ПолучитьСписокКонтактныхЛицКонтрагента</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента.Form.Форма</defaultForm>
-  <forms uuid="fe73c515-678d-43c7-a31d-0564a32e4326">
+  <forms uuid="fad61e39-478c-4e5a-8413-cdc4fa1a120d">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

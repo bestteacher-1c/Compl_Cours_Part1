@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5885b7e-8927-44db-9e3a-3cd7bba81b0d">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49ec1531-9ddd-46d8-b2ad-f8332bffba3a">
   <producedTypes>
-    <objectType typeId="3cec215d-11cc-4c4e-ac58-e4984f03c97b" valueTypeId="f7357f91-5896-49da-9209-5d9a693fa462"/>
-    <managerType typeId="175a5948-598f-4fe9-b1f3-74d29f05d7f3" valueTypeId="a119d1ea-8766-412b-886e-202dd29a77a6"/>
+    <objectType typeId="7601c954-0891-4b2d-8022-0db63896d5bb" valueTypeId="8d6612b9-ad58-428b-9454-6b03292b6837"/>
+    <managerType typeId="588e880e-7bad-4933-ada2-00acfc9968e1" valueTypeId="b2e8c478-d238-426b-b920-7476b36f44cf"/>
   </producedTypes>
   <name>УстановитьЦену</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.УстановитьЦену.Form.Форма</defaultForm>
-  <forms uuid="11373354-fc79-4b3f-9939-7d6907233de2">
+  <forms uuid="067e0274-41ef-4476-b8d0-fd189148c757">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

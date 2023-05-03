@@ -18,6 +18,7 @@
   <content>Constant.УчетПоСкладам</content>
   <content>CommonForm.ФормаКонстант</content>
   <content>DataProcessor.ЗаполнениеКурсаВалюты</content>
+  <content>DataProcessor.УстановитьЦену</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

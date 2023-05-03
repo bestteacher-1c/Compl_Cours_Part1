@@ -97,8 +97,11 @@
   <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
   <dataProcessors>DataProcessor.ПолучитьСписокДожностейПодразделения</dataProcessors>
-  <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</dataProcessors>
+  <dataProcessors>DataProcessor.УстановитьЦену</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ФИОСотрудника</informationRegisters>

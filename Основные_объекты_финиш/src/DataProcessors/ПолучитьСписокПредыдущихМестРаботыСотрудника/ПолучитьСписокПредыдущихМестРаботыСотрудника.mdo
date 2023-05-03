@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b28ca37b-983b-4d05-bf0b-c75af475f0b4">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5b3549d-e6d4-43da-9c65-46e02feef05b">
   <producedTypes>
-    <objectType typeId="d802aa48-fd12-4662-8e19-d6c195e5c976" valueTypeId="8ad4c648-d8e3-4723-ac27-8db979e2a3b5"/>
-    <managerType typeId="f695da95-6ddf-4cc3-b330-39396e01bc74" valueTypeId="29a1a459-1d56-40c7-b18f-22b174f84139"/>
+    <objectType typeId="06af647c-5c01-4976-ab20-db64866e94eb" valueTypeId="5226d2d2-bbe7-470e-adc9-a6bd51074aba"/>
+    <managerType typeId="a8d17a58-bbf6-43a8-8fe5-03a1a6d30d5c" valueTypeId="676d30ac-758c-429e-96ef-c0b8d3434f21"/>
   </producedTypes>
   <name>ПолучитьСписокПредыдущихМестРаботыСотрудника</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника.Form.Форма</defaultForm>
-  <forms uuid="a22fa1e4-a561-4b65-94e1-16894250386e">
+  <forms uuid="a2e8c39c-f361-45ed-95f7-6965f6e93e28">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

@@ -17,4 +17,5 @@
   <content>Document.ПриказОбУвольнении</content>
   <content>DocumentJournal.Кадровый</content>
   <content>Catalog.Должности</content>
+  <content>DataProcessor.СообщитьСписокДожностейПодразделения</content>
 </mdclass:Subsystem>

@@ -95,6 +95,7 @@
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
+  <dataProcessors>DataProcessor.СообщитьСписокДожностейПодразделения</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>

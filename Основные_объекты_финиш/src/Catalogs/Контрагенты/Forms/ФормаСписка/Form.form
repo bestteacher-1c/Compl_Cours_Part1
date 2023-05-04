@@ -382,7 +382,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>Catalog.Валюты.Command.СообщитьКодыИНаименованиеВалюты</command>
+        <command>Catalog.Валюты.Command.ПолучитьКодыИНаименованиеВалюты</command>
         <type>Added</type>
         <commandParameter xsi:type="form:DataPath">
           <segments>Items.Список.CurrentData.ВалютаРасчетов</segments>

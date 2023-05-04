@@ -205,10 +205,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <commands uuid="41d4652d-50f4-4385-8440-0e1f8dff8359">
-    <name>СообщитьКодыИНаименованиеВалюты</name>
+    <name>ПолучитьКодыИНаименованиеВалюты</name>
     <synonym>
       <key>ru</key>
-      <value>Сообщить коды и наименование валюты</value>
+      <value>Получить коды и наименование валюты</value>
     </synonym>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

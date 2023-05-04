@@ -90,10 +90,10 @@
     </attributes>
   </tabularSections>
   <commands uuid="3470fcd9-4d14-4fdc-a018-ee74025577f1">
-    <name>СообщитьСписокДолжностей</name>
+    <name>ПолучитьСписокДолжностей</name>
     <synonym>
       <key>ru</key>
-      <value>Сообщить список должностей</value>
+      <value>Получить список должностей</value>
     </synonym>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

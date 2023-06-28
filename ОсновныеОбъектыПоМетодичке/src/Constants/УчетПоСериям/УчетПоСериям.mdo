@@ -14,6 +14,7 @@
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ПараметрыУчета</defaultForm>
   <mask>999999999999</mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>

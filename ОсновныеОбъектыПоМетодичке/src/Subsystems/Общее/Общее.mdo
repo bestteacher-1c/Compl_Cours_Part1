@@ -7,9 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Constant.НазваниеКомпании</content>
-  <content>Constant.УчетПоСериям</content>
-  <content>Constant.УчетПоСкладам</content>
+  <content>CommonForm.ПараметрыУчета</content>
+  <content>DataProcessor.РаботаСДаннымиСправочникаОбъектнаяМодель</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>

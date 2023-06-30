@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f4f855c-e463-4527-81c3-45536bff4b1f">
-  <name>Конфигурация</name>
+  <name>Конфигурация_</name>
   <synonym>
     <key>ru</key>
-    <value>Конфигурация (Практикум 2)</value>
+    <value>Конфигурация (Практикум 3)</value>
   </synonym>
-  <comment>Практикум 2</comment>
+  <comment>Пркатикум 3_</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9e7b412e-68ca-490d-bfa4-8865224259dc"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="db704ad3-e7f9-40b3-b127-739ead72699c"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0138da2f-1e0b-4708-90df-cf438c60e220"/>
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e2b24116-b160-4212-a688-f760daf1247d"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3ae66970-aff6-49d7-93b9-ef22ce28285a"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6a37a2fd-39fa-4cc5-b3d6-0fd20c1573d8"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="3edf49bc-e774-4add-aede-2f1c7aa0a7b3"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9042334e-3c1b-4590-aa2e-56bb1be68a98"/>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -31,7 +31,6 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.22</compatibilityMode>
   <languages uuid="27ded32a-f6a7-4b0d-a7d9-e76f50492d6d">
     <name>Русский</name>
@@ -58,4 +57,5 @@
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <enums>Enum.ВидыТоваров</enums>
   <dataProcessors>DataProcessor.РаботаСДаннымиСправочникаОбъектнаяМодель</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСДаннымиСправочникаТабличнаяМодель</dataProcessors>
 </mdclass:Configuration>

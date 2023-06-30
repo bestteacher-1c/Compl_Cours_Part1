@@ -70,7 +70,9 @@
     <dataHistory>Use</dataHistory>
     <name>Parent</name>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>1c377d40-732f-474e-a727-aa00d8ae82f3.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

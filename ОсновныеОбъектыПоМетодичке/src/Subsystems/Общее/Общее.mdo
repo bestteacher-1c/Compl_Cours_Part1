@@ -9,6 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonForm.ПараметрыУчета</content>
   <content>DataProcessor.РаботаСДаннымиСправочникаОбъектнаяМодель</content>
+  <content>DataProcessor.РаботаСДаннымиСправочникаТабличнаяМодель</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>

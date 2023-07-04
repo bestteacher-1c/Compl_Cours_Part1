@@ -11,5 +11,10 @@
   <content>Catalog.Подразделения</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Серии</content>
+  <content>Catalog.КонтактныеЛица</content>
   <parentSubsystem>Subsystem.Общее</parentSubsystem>
 </mdclass:Subsystem>

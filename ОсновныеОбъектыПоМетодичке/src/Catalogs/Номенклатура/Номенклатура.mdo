@@ -198,4 +198,16 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="1eede9e5-51db-4536-94cf-aa723ef9a5d5">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="e4fbb72d-b73d-4521-bd13-a2da419b568f">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

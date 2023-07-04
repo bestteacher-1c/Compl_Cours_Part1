@@ -10,6 +10,7 @@
   <content>CommonForm.ПараметрыУчета</content>
   <content>DataProcessor.РаботаСДаннымиСправочникаОбъектнаяМодель</content>
   <content>DataProcessor.РаботаСДаннымиСправочникаТабличнаяМодель</content>
+  <content>DataProcessor.ДоступКДаннымДокумента</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e146ff55-84d2-49bd-9c94-814512c4f93e">
-  <name>ОтделПродаж</name>
-  <synonym>
-    <key>ru</key>
-    <value>Отдел продаж</value>
-  </synonym>
-</mdclass:Role>

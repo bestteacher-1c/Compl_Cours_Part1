@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25a1bf5d-d1d3-40a2-a1b2-10d139ec0265">
+  <producedTypes>
+    <objectType typeId="ff79f8f1-4c19-4785-82a7-76117b424bcb" valueTypeId="55a23c2d-a470-4030-9bdd-b4dcb7fa6d31"/>
+    <managerType typeId="c0bfefc4-0d74-4cd4-bea9-33c4d1ad6e60" valueTypeId="7096dd24-736f-494b-a8c6-128ff8d04e46"/>
+  </producedTypes>
+  <name>РегистрыСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры сведений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегистрыСведений.Form.Форма</defaultForm>
+  <attributes uuid="b652d507-2161-4fc4-bf16-1722ee10ca90">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ee7ef5bf-55bf-488a-ace7-db3b6daae42d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

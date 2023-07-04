@@ -67,6 +67,7 @@
   <defaultObjectForm>Document.ПоступлениеТоваров.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПоступлениеТоваров.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ЦеныПоставщиков</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="7bef32ed-ca16-45ef-a411-258f12fe7ffc">

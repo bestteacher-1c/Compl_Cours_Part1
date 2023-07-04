@@ -16,5 +16,7 @@
   <content>Catalog.Должности</content>
   <content>Catalog.Серии</content>
   <content>Catalog.КонтактныеЛица</content>
+  <content>Catalog.Валюты</content>
+  <content>InformationRegister.КурсыВалют</content>
   <parentSubsystem>Subsystem.Общее</parentSubsystem>
 </mdclass:Subsystem>

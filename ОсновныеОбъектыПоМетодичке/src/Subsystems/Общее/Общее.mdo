@@ -11,6 +11,7 @@
   <content>DataProcessor.РаботаСДаннымиСправочникаОбъектнаяМодель</content>
   <content>DataProcessor.РаботаСДаннымиСправочникаТабличнаяМодель</content>
   <content>DataProcessor.ДоступКДаннымДокумента</content>
+  <content>DataProcessor.РегистрыСведений</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a933a1-3f93-4887-b4b3-2aab752f03d3">
+  <producedTypes>
+    <objectType typeId="fb55c9ed-cc61-4950-8910-a3c648fe0768" valueTypeId="908be84e-e086-41ad-84a9-c21b1a9edd39"/>
+    <refType typeId="3ef3a218-c1f0-4118-a569-8d076ef3f21d" valueTypeId="bae417b1-cd79-4a2d-9ced-a8c2ea166378"/>
+    <selectionType typeId="0dba6edd-4301-4095-b802-8f6b24c3a479" valueTypeId="4dd557a9-7550-4187-9693-c416073387d0"/>
+    <listType typeId="b220fee7-07f9-48d9-9e6c-c199042f1b3d" valueTypeId="00b8dbf2-e1a2-411a-9bcf-d5049ddf2c64"/>
+    <managerType typeId="13f03e67-43ca-4531-804d-57f6180444a2" valueTypeId="cc9c0ad8-511b-40d5-989c-1762818883bc"/>
+    <containerType typeId="92b61af8-8759-4b95-905d-8667fa06eb26" valueTypeId="ba8c26d2-b4df-41cb-bbdf-115cdaf8db45"/>
+  </producedTypes>
+  <name>ДополнительныеСвойтсва</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные свойтсва</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеСвойтсва.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеСвойтсва.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Должности</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.КонтактныеЛица</types>
+    <types>CatalogRef.ЕдиницыИзмерения</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Подразделения</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f808b00b-6798-4240-9800-708c711e7171">
+      <name>КоличествоКомпрессоров</name>
+      <description>Количество компрессоров</description>
+      <code>000000001</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

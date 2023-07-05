@@ -8,6 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>AccumulationRegister.Продажи</content>
+  <content>Report.ПродажиТоваров</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
 </mdclass:Subsystem>

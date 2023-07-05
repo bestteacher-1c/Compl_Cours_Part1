@@ -3,16 +3,16 @@
   <name>Конфигурация</name>
   <synonym>
     <key>ru</key>
-    <value>Конфигурация (Практикум 8)</value>
+    <value>Конфигурация (Практикум 9)</value>
   </synonym>
-  <comment>Практикум 8</comment>
+  <comment>Практикум 9</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9e7b412e-68ca-490d-bfa4-8865224259dc"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="db704ad3-e7f9-40b3-b127-739ead72699c"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0138da2f-1e0b-4708-90df-cf438c60e220"/>
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e2b24116-b160-4212-a688-f760daf1247d"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3ae66970-aff6-49d7-93b9-ef22ce28285a"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6a37a2fd-39fa-4cc5-b3d6-0fd20c1573d8"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="927e2b9e-24a7-48fc-99fc-d7df1bc813fd"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fd70ac8f-fffc-4ab7-90ec-6e7b001dfa47"/>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -67,6 +67,8 @@
   <documents>Document.ПродажаТоваров</documents>
   <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
   <enums>Enum.ВидыТоваров</enums>
+  <reports>Report.ПоступлениеТоваров</reports>
+  <reports>Report.ПродажиТоваров</reports>
   <dataProcessors>DataProcessor.РаботаСДаннымиСправочникаОбъектнаяМодель</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСДаннымиСправочникаТабличнаяМодель</dataProcessors>
   <dataProcessors>DataProcessor.ДоступКДаннымДокумента</dataProcessors>

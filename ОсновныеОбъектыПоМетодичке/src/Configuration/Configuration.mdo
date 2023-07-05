@@ -3,9 +3,9 @@
   <name>Конфигурация</name>
   <synonym>
     <key>ru</key>
-    <value>Конфигурация (Практикум 1)</value>
+    <value>Конфигурация (Финиш без СР)</value>
   </synonym>
-  <comment>Практикум 1</comment>
+  <comment>Финиш без СР</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9e7b412e-68ca-490d-bfa4-8865224259dc"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="db704ad3-e7f9-40b3-b127-739ead72699c"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0138da2f-1e0b-4708-90df-cf438c60e220"/>
@@ -44,10 +44,48 @@
   <subsystems>Subsystem.Общее</subsystems>
   <subsystems>Subsystem.Закупки</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
+  <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ОтделПродаж</roles>
   <roles>Role.ОтделЗакупок</roles>
-  <constants>Constant.НазваниеКомпании</constants>
+  <filterCriteria>FilterCriterion.НоменклатураВДокументах</filterCriteria>
+  <commonModules>CommonModule.Серверный</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндексаПолнотекстовогоПоиска</scheduledJobs>
+  <functionalOptions>FunctionalOption.ПоСериям</functionalOptions>
+  <functionalOptions>FunctionalOption.ПоСкладам</functionalOptions>
+  <constants>Constant.НаименованиеКомпании</constants>
   <constants>Constant.УчетПоСериям</constants>
   <constants>Constant.УчетПоСкладам</constants>
+  <commonForms>CommonForm.ПараметрыУчета</commonForms>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Серии</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
+  <enums>Enum.ВидыТоваров</enums>
+  <reports>Report.ПоступлениеТоваров</reports>
+  <reports>Report.ПродажиТоваров</reports>
+  <dataProcessors>DataProcessor.РаботаСДаннымиСправочникаОбъектнаяМодель</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСДаннымиСправочникаТабличнаяМодель</dataProcessors>
+  <dataProcessors>DataProcessor.ДоступКДаннымДокумента</dataProcessors>
+  <dataProcessors>DataProcessor.РегистрыСведений</dataProcessors>
+  <dataProcessors>DataProcessor.Практикум_8</dataProcessors>
+  <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.Адреса</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойтсва</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.Продажа</businessProcesses>
+  <tasks>Task.Задача</tasks>
 </mdclass:Configuration>

@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Складские документы</value>
   </synonym>
+  <defaultForm>DocumentJournal.СкладскиеДокументы.Form.ФормаСписка</defaultForm>
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
   <registeredDocuments>Document.ПродажаТоваров</registeredDocuments>
@@ -40,4 +41,13 @@
     <references>Document.ПоступлениеТоваров.Attribute.СуммаДокумента</references>
     <references>Document.ПродажаТоваров.Attribute.СуммаДокумента</references>
   </columns>
+  <forms uuid="c3c29f09-75da-432f-bfce-7103e048074d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DocumentJournal>

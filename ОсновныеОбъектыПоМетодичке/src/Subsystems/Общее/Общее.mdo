@@ -14,6 +14,8 @@
   <content>DataProcessor.РегистрыСведений</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>DataProcessor.Практикум_8</content>
+  <content>FilterCriterion.НоменклатураВДокументах</content>
+  <content>DataProcessor.ПолнотекстовыйПоиск</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>

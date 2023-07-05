@@ -215,6 +215,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="152dd3b2-d3c7-4841-bf0b-eb70cbe89e0f">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="e932af69-bc4e-41de-a2d0-4c57ddc18813">
     <producedTypes>
       <objectType typeId="9fe85bc7-b150-4def-bf35-3082ae7f6361" valueTypeId="8aa6ead9-ad52-4f7a-b5b8-0fb71e70504f"/>

@@ -3,9 +3,9 @@
   <name>Конфигурация</name>
   <synonym>
     <key>ru</key>
-    <value>Конфигурация</value>
+    <value>Конфигурация (Практикум 1)</value>
   </synonym>
-  <comment>По методичке</comment>
+  <comment>Практикум 1</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9e7b412e-68ca-490d-bfa4-8865224259dc"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="db704ad3-e7f9-40b3-b127-739ead72699c"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0138da2f-1e0b-4708-90df-cf438c60e220"/>

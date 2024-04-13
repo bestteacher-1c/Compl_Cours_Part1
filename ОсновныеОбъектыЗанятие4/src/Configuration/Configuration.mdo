@@ -21,6 +21,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>

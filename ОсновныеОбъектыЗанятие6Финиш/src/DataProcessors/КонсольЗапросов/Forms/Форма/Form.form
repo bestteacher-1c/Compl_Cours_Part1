@@ -390,6 +390,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
           <choiceButton>true</choiceButton>
+          <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
         </extInfo>

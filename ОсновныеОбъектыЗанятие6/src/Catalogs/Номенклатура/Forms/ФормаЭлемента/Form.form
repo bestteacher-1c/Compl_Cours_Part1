@@ -595,7 +595,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>АналогиСтрокаПоиска</source>
+          <source>Аналоги</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -634,7 +634,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>АналогиСостояниеПросмотра</source>
+          <source>Аналоги</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -673,7 +673,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>АналогиУправлениеПоиском</source>
+          <source>Аналоги</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1043,7 +1043,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>РеквизитыДополнительныеСтрокаПоиска</source>
+          <source>РеквизитыДополнительные</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1082,7 +1082,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>РеквизитыДополнительныеСостояниеПросмотра</source>
+          <source>РеквизитыДополнительные</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1121,7 +1121,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>РеквизитыДополнительныеУправлениеПоиском</source>
+          <source>РеквизитыДополнительные</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1242,6 +1242,7 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

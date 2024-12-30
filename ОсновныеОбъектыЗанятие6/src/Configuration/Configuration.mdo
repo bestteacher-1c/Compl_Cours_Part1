@@ -26,12 +26,11 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
-  <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.20</compatibilityMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
   <languages uuid="cebe0e81-7449-47a9-9ccb-972c6735b540">
     <name>Русский</name>
     <synonym>

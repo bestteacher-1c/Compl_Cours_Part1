@@ -7,18 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ЕдиницыИзмерения</content>
-  <content>Catalog.Подразделения</content>
-  <content>Catalog.Номенклатура</content>
-  <content>Catalog.ФизическиеЛица</content>
-  <content>Catalog.Склады</content>
-  <content>Catalog.Контрагенты</content>
-  <content>Catalog.Должности</content>
-  <content>Catalog.Серии</content>
-  <content>Catalog.КонтактныеЛица</content>
-  <content>Catalog.Валюты</content>
-  <content>InformationRegister.КурсыВалют</content>
-  <content>InformationRegister.СвойстваНоменклатуры</content>
-  <content>ChartOfCharacteristicTypes.ДополнительныеСвойтсва</content>
   <parentSubsystem>Subsystem.Общее</parentSubsystem>
 </mdclass:Subsystem>

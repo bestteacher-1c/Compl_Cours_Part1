@@ -5,10 +5,10 @@
     <valueManagerType typeId="fce20d13-880f-47c1-a2ed-74af856ce6b8" valueTypeId="7782b727-4725-4938-a2a8-10effc01be62"/>
     <valueKeyType typeId="ffb9e111-ad82-5f47-af5d-fce2a491aace" valueTypeId="a072add7-298a-5582-a195-fe237af61ea7"/>
   </producedTypes>
-  <name>НаименованиеКомпании</name>
+  <name>НазваниеКомпании</name>
   <synonym>
     <key>ru</key>
-    <value>Наименование компании</value>
+    <value>Название компании</value>
   </synonym>
   <type>
     <types>String</types>
@@ -17,7 +17,6 @@
     </stringQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>CommonForm.ПараметрыУчета</defaultForm>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

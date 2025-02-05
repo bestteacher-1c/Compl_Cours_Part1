@@ -103,6 +103,15 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2631100b-50d4-44a2-a7a7-a2a0bb23a410">
+      <name>НациональнаяВалюта</name>
+      <description>Национальная валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="c30188f9-0fd0-4687-a4e7-42fc49d88f72">

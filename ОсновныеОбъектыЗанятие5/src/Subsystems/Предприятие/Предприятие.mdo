@@ -19,6 +19,7 @@
   <content>CommonForm.ФормаКонстант</content>
   <content>DataProcessor.ЗаполнениеКурсаВалюты</content>
   <content>DataProcessor.УстановитьЦену</content>
+  <content>InformationRegister.ОтносительныеКурсыВалют</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

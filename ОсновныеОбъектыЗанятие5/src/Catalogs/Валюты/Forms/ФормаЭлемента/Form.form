@@ -151,7 +151,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Курс</name>
+    <name>КурсЧислитель</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -159,10 +159,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Курс</segments>
+      <segments>Объект.КурсЧислитель</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КурсРасширеннаяПодсказка</name>
+      <name>КурсЧислительРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -177,7 +177,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КурсКонтекстноеМеню</name>
+      <name>КурсЧислительКонтекстноеМеню</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -197,7 +197,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Кратность</name>
+    <name>КурсЗнаменатель</name>
     <id>13</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -205,10 +205,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Кратность</segments>
+      <segments>Объект.КурсЗнаменатель</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КратностьРасширеннаяПодсказка</name>
+      <name>КурсЗнаменательРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -223,7 +223,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КратностьКонтекстноеМеню</name>
+      <name>КурсЗнаменательКонтекстноеМеню</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -234,6 +234,52 @@
     </contextMenu>
     <type>LabelField</type>
     <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:LabelFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>БазоваяВалюта</name>
+    <id>22</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.БазоваяВалюта</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>БазоваяВалютаРасширеннаяПодсказка</name>
+      <id>24</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>БазоваяВалютаКонтекстноеМеню</name>
+      <id>23</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>LabelField</type>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>

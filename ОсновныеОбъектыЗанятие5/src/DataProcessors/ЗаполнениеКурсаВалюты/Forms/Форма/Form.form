@@ -101,7 +101,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Курс</name>
+    <name>КурсЧислитель</name>
     <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -109,10 +109,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Курс</segments>
+      <segments>КурсЧислитель</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КурсРасширеннаяПодсказка</name>
+      <name>КурсЧислительРасширеннаяПодсказка</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -127,7 +127,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КурсКонтекстноеМеню</name>
+      <name>КурсЧислительКонтекстноеМеню</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -151,7 +151,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Кратность</name>
+    <name>КурсЗнаменатель</name>
     <id>15</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -159,10 +159,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Кратность</segments>
+      <segments>КурсЗнаменатель</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КратностьРасширеннаяПодсказка</name>
+      <name>КурсЗнаменательРасширеннаяПодсказка</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -177,7 +177,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КратностьКонтекстноеМеню</name>
+      <name>КурсЗнаменательКонтекстноеМеню</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -336,10 +336,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Курс</name>
+    <name>КурсЧислитель</name>
     <title>
       <key>ru</key>
-      <value>Курс</value>
+      <value>Курс числитель</value>
     </title>
     <id>3</id>
     <valueType>
@@ -398,16 +398,17 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Кратность</name>
+    <name>КурсЗнаменатель</name>
     <title>
       <key>ru</key>
-      <value>Кратность</value>
+      <value>Курс знаменатель</value>
     </title>
     <id>6</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <scale>4</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </valueType>

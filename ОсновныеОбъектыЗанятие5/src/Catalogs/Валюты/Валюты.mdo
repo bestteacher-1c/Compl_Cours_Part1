@@ -104,6 +104,15 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="23a2d0e6-ffd6-496f-bbfa-b477a8214ebb">
+      <name>НациональнаяВалюта</name>
+      <description>Национальная валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
@@ -129,10 +138,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="9c4e735b-aa7c-482c-b5dc-c904afd25618">
-    <name>Курс</name>
+    <name>КурсЧислитель</name>
     <synonym>
       <key>ru</key>
-      <value>Курс</value>
+      <value>Курс числитель</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -149,15 +158,16 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2d11603e-dae6-4412-b37c-d6c704235d41">
-    <name>Кратность</name>
+    <name>КурсЗнаменатель</name>
     <synonym>
       <key>ru</key>
-      <value>Кратность</value>
+      <value>Курс знаменатель</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <scale>4</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -181,7 +191,21 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a53052a9-d47d-427d-ba68-d3629798fd61">
+    <name>БазоваяВалюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

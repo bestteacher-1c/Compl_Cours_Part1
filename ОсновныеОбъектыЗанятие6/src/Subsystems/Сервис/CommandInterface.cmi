@@ -32,12 +32,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>InformationRegister.КурсыВалют.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>InformationRegister.НашиЦены.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -58,7 +52,6 @@
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
@@ -76,7 +69,6 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>

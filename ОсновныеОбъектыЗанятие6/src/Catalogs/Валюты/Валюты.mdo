@@ -104,6 +104,15 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="02e158ab-00e1-4312-bf68-06abd7d9c9b2">
+      <name>НациональнаяВалюта</name>
+      <description>Национальная валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
@@ -130,10 +139,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="90d5d748-f0ca-4c90-9cc1-cb8a4e48c8fc">
-    <name>Курс</name>
+    <name>КурсЧислитель</name>
     <synonym>
       <key>ru</key>
-      <value>Курс</value>
+      <value>Курс числитель</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -150,15 +159,16 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="dcf7ec68-5e1b-4899-ab50-42ab1ac0eb63">
-    <name>Кратность</name>
+    <name>КурсЗнаменатель</name>
     <synonym>
       <key>ru</key>
-      <value>Кратность</value>
+      <value>Курс знаменатель</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <scale>4</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -179,6 +189,21 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de24c071-1754-4b08-9d75-760a6d7c9fab">
+    <name>БазоваяВалюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

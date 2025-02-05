@@ -14,7 +14,6 @@
   <content>Catalog.Серии</content>
   <content>Catalog.Склады</content>
   <content>ChartOfCharacteristicTypes.ДопРеквизитыНоменклатуры</content>
-  <content>InformationRegister.КурсыВалют</content>
   <content>InformationRegister.НашиЦены</content>
   <parentSubsystem>Subsystem.Предприятие</parentSubsystem>
 </mdclass:Subsystem>

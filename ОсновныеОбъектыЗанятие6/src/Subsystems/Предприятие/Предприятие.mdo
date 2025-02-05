@@ -21,6 +21,7 @@
   <content>DataProcessor.ЗаменаОтветственногоНаСкладах</content>
   <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
   <content>DataProcessor.УстановитьЦену</content>
+  <content>InformationRegister.ОтносительныеКурсыВалют</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

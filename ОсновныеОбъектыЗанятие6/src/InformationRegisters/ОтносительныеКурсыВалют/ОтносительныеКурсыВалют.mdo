@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81425ede-9f51-4e8b-939e-b97a4ccd88c0">
+  <producedTypes>
+    <selectionType typeId="672bc72c-d158-4172-a8e9-50a2eb0900e9" valueTypeId="3076f229-eef4-4cea-8502-e99cd203fe05"/>
+    <listType typeId="f7929cff-f61e-4290-afe0-019009573fe2" valueTypeId="349c126a-d3d5-46ad-93e9-ae7f751b328a"/>
+    <managerType typeId="c79f0e6e-6289-49d0-803d-b63e629f0415" valueTypeId="3c8e67e4-e358-4120-bc24-78c0a0eea838"/>
+    <recordSetType typeId="42246541-c6f0-484d-bfd3-cebfdf592af0" valueTypeId="84c15ff8-d73a-4832-b03e-dd08dd6733f3"/>
+    <recordKeyType typeId="0b381890-e3e9-406f-bfa6-3f186ee94f31" valueTypeId="eecd4a4b-9c8b-4480-978d-15fe4c78e533"/>
+    <recordType typeId="657ef715-1333-4a49-96e3-0bc6f757733e" valueTypeId="2e671148-f6c8-4ed0-803f-c6076d74870d"/>
+    <recordManagerType typeId="3f25eaa7-ccd1-4321-95e2-122628726e30" valueTypeId="085c8bc8-a335-4ea2-b9bd-d88f683167fa"/>
+  </producedTypes>
+  <name>ОтносительныеКурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Относительные курсы валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c0b92d58-0125-46df-bd89-8e5ca2b9f08f">
+    <name>КурсЧислитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс числитель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c6640229-f362-479b-ae67-20b0c5d93fae">
+    <name>КурсЗнаменатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс знаменатель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </resources>
+  <attributes uuid="d8a7fe30-73c1-43e1-80fd-8a9d2be7201b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="92a8217a-f150-4b8c-a2ad-e943bdfa6476">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="be12c549-8c52-496e-9163-5fb29da6e073">
+    <name>БазоваяВалюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Валюты.НациональнаяВалюта</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

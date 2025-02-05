@@ -101,6 +101,7 @@
   <dataProcessors>DataProcessor.УстановитьЦену</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
+  <informationRegisters>InformationRegister.ОтносительныеКурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ФИОСотрудника</informationRegisters>

@@ -26,7 +26,6 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.Валюты.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

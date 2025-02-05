@@ -104,6 +104,15 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="13cf0d5b-748c-49bc-86e2-701ffdc1fb96">
+      <name>НациональнаяВалюта</name>
+      <description>Национальная валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>

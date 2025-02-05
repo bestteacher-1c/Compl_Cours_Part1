@@ -72,4 +72,5 @@
   <enums>Enum.ВидыНоменклатуры</enums>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
+  <informationRegisters>InformationRegister.ОтносительныеКурсыВалют</informationRegisters>
 </mdclass:Configuration>

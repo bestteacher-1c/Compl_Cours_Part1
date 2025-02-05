@@ -15,7 +15,6 @@
   <content>BusinessProcess.Продажа</content>
   <content>Task.Задача</content>
   <content>FilterCriterion.КритерийНоменклатура</content>
-  <content>InformationRegister.КурсыВалют</content>
   <content>InformationRegister.НашиЦены</content>
   <content>Document.УстановкаЦен</content>
   <content>DataProcessor.ПолнотекстовыйПоиск</content>

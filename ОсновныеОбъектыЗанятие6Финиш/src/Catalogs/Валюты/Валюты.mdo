@@ -105,6 +105,15 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a998b930-bc5d-415f-9e8c-ebaeda99d47a">
+      <name>НациональнаяВалюта</name>
+      <description>Национальная валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
@@ -131,10 +140,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="90d5d748-f0ca-4c90-9cc1-cb8a4e48c8fc">
-    <name>Курс</name>
+    <name>КурсЧислитель</name>
     <synonym>
       <key>ru</key>
-      <value>Курс</value>
+      <value>Курс числитель</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -151,10 +160,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="dcf7ec68-5e1b-4899-ab50-42ab1ac0eb63">
-    <name>Кратность</name>
+    <name>КурсЗнаменатель</name>
     <synonym>
       <key>ru</key>
-      <value>Кратность</value>
+      <value>Курс знаменатель</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -180,6 +189,21 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2e085af-c1a4-4303-991e-67e5c814c474">
+    <name>БазоваяВалюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

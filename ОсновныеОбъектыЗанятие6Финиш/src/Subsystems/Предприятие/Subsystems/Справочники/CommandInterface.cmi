@@ -14,12 +14,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>InformationRegister.КурсыВалют.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.Серии.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -37,7 +31,6 @@
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -50,7 +43,6 @@
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>

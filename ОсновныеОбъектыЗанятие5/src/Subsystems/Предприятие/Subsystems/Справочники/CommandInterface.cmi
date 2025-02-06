@@ -5,7 +5,6 @@
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -24,7 +23,6 @@
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>

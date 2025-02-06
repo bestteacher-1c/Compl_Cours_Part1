@@ -70,7 +70,6 @@
   <enums>Enum.ПолФизическихЛиц</enums>
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
-  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
-  <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ОтносительныеКурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>

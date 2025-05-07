@@ -138,10 +138,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="786538c9-4dbf-4778-8fd1-b65cf5de327c">
-    <name>Курс</name>
+    <name>КурсЧислитель</name>
     <synonym>
       <key>ru</key>
-      <value>Курс</value>
+      <value>Курс числитель</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -158,15 +158,16 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="94a78e63-0fe6-4e39-8928-0178ec4914ce">
-    <name>Кратность</name>
+    <name>КурсЗнаменатель</name>
     <synonym>
       <key>ru</key>
-      <value>Кратность</value>
+      <value>Курс знаменатель</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <scale>4</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -187,6 +188,21 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f42191b3-e2fb-4d01-b8dc-ce46a0604fb3">
+    <name>БазоваяВалюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

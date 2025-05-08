@@ -368,16 +368,4 @@
   <templates uuid="8e448949-db51-42a6-8247-2dceda24a44f">
     <name>МакетРеализации</name>
   </templates>
-  <commands uuid="fe9557bb-4150-4097-b235-7c76c1e5f039">
-    <name>Печать</name>
-    <synonym>
-      <key>ru</key>
-      <value>Печать</value>
-    </synonym>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>DocumentRef.Реализация</types>
-    </commandParameterType>
-    <representation>Auto</representation>
-  </commands>
 </mdclass:Document>

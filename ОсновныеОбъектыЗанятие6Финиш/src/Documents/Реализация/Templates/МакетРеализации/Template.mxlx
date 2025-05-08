@@ -511,14 +511,43 @@
 		<w>1</w>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Область1</name>
+		<name>ЗаголовокСтроки</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>8</beginRow>
+			<endRow>8</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подвал</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>12</beginRow>
+			<endRow>12</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Строка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>10</beginRow>
+			<endRow>10</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>1</beginRow>
 			<endRow>6</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>d297878e-7ae8-45af-91f4-640877ee6683</columnsID>
 		</area>
 	</namedItem>
 	<line width="1" gap="false">
@@ -629,6 +658,7 @@
 		<font>2</font>
 	</format>
 	<format>
+		<font>2</font>
 		<border>1</border>
 		<width>73</width>
 		<widthWeightFactor>1</widthWeightFactor>

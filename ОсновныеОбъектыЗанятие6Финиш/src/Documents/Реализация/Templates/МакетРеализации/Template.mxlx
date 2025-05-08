@@ -319,10 +319,11 @@
 		<index>8</index>
 		<row>
 			<columnsID>7ccc6b7a-d455-4587-84fa-0cf98fda399c</columnsID>
+			<formatIndex>19</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>19</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -333,7 +334,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -344,7 +345,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -355,7 +356,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -366,7 +367,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -394,17 +395,17 @@
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>21</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>21</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>21</f>
 				</c>
 			</c>
 		</row>
@@ -416,31 +417,31 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>НомерСтроки</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>23</f>
 					<parameter>Цена</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>23</f>
 					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>23</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
@@ -453,13 +454,13 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>23</f>
+					<f>24</f>
 				</c>
 			</c>
 			<c>
 				<i>5</i>
 				<c>
-					<f>20</f>
+					<f>21</f>
 				</c>
 			</c>
 		</row>
@@ -471,7 +472,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>23</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -483,7 +484,7 @@
 			<c>
 				<i>4</i>
 				<c>
-					<f>24</f>
+					<f>25</f>
 					<parameter>ИтогоСумма</parameter>
 				</c>
 			</c>
@@ -502,7 +503,7 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>25</defaultFormatIndex>
+	<defaultFormatIndex>26</defaultFormatIndex>
 	<height>13</height>
 	<vgRows>13</vgRows>
 	<merge>
@@ -636,6 +637,9 @@
 		<width>160</width>
 		<widthWeightFactor>1</widthWeightFactor>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<hidden>false</hidden>
 	</format>
 	<format>
 		<font>2</font>

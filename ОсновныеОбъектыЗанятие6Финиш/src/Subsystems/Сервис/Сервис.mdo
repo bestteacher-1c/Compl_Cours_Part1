@@ -23,4 +23,6 @@
   <content>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</content>
   <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
   <content>DataProcessor.УстановитьЦену</content>
+  <content>DataProcessor.ЗаполнениеКурсаВалюты</content>
+  <content>DataProcessor.ЗаменаОтветственногоНаСкладах</content>
 </mdclass:Subsystem>

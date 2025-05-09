@@ -9,7 +9,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ДатаДействияКурса</segments>
+      <segments>Дата</segments>
     </dataPath>
     <extendedTooltip>
       <name>ДатаДействияКурсаРасширеннаяПодсказка</name>
@@ -378,10 +378,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ДатаДействияКурса</name>
+    <name>Дата</name>
     <title>
       <key>ru</key>
-      <value>Дата действия курса</value>
+      <value>Дата</value>
     </title>
     <id>5</id>
     <valueType>

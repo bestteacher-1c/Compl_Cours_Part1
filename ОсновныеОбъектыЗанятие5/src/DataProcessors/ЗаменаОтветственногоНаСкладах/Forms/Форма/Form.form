@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>КогоМеняем</name>
-    <id>1</id>
+    <name>СтарыйОтветственный</name>
+    <id>9</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.КогоМеняем</segments>
+      <segments>СтарыйОтветственный</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КогоМеняемРасширеннаяПодсказка</name>
-      <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <name>СтарыйОтветственныйРасширеннаяПодсказка</name>
+      <id>11</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -27,17 +22,12 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КогоМеняемКонтекстноеМеню</name>
-      <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <name>СтарыйОтветственныйКонтекстноеМеню</name>
+      <id>10</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -51,24 +41,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>НаКогоМеняем</name>
-    <id>4</id>
+    <name>НовыйОтветственный</name>
+    <id>12</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.НаКогоМеняем</segments>
+      <segments>НовыйОтветственный</segments>
     </dataPath>
     <extendedTooltip>
-      <name>НаКогоМеняемРасширеннаяПодсказка</name>
-      <id>6</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <name>НовыйОтветственныйРасширеннаяПодсказка</name>
+      <id>14</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -77,17 +62,12 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>НаКогоМеняемКонтекстноеМеню</name>
-      <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <name>НовыйОтветственныйКонтекстноеМеню</name>
+      <id>13</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -163,6 +143,40 @@
       <common>true</common>
     </edit>
     <main>true</main>
+  </attributes>
+  <attributes>
+    <name>СтарыйОтветственный</name>
+    <title>
+      <key>ru</key>
+      <value>Старый ответственный</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>CatalogRef.Сотрудники</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>НовыйОтветственный</name>
+    <title>
+      <key>ru</key>
+      <value>Новый ответственный</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>CatalogRef.Сотрудники</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ЗаменитьОтветственного</name>

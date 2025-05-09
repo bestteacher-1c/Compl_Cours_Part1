@@ -191,17 +191,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ЗаменаОтветственногоНаСкладах</name>
-		<right>
-			<name>Use</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>AccumulationRegister.ОстаткиТоваров</name>
 		<right>
 			<name>Read</name>
@@ -830,17 +819,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ЗаменаОтветственногоНаСкладах.Attribute.НаКогоМеняем</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DocumentJournal.Торговый</name>
 		<right>
 			<name>Read</name>
@@ -1204,17 +1182,6 @@
 	</object>
 	<object>
 		<name>Document.Поступление.TabularSection.Услуги.Attribute.Цена</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ЗаменаОтветственногоНаСкладах.Attribute.КогоМеняем</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5eaa08f-868d-4a0d-8143-d58c6277ea65">
+  <producedTypes>
+    <objectType typeId="f32d13a3-e2c0-4160-9093-3c51fb607b8a" valueTypeId="0680981c-c4c1-4749-9737-abba6e522def"/>
+    <managerType typeId="8c5d233e-617a-4749-88ec-689aac370c21" valueTypeId="2b398da9-bbeb-4c40-994c-43709be224eb"/>
+  </producedTypes>
+  <name>ПолучитьСписокКонтактныхЛицКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить список контактных лиц контрагента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента.Form.Форма</defaultForm>
+  <forms uuid="91e50f73-ca9d-46e1-9cef-fc357c4033bd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

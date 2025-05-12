@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff885374-8db4-48a3-9353-d00cc9ed54d9">
+  <producedTypes>
+    <objectType typeId="33e0827b-bcee-442c-95ff-d4a3436976b9" valueTypeId="43e00c1b-bbd2-4877-a021-d33593906987"/>
+    <managerType typeId="e92e998c-55e0-4d61-a8dd-bc47441e3bed" valueTypeId="b5ef6f4c-1823-4f58-be56-6422b9e75f2f"/>
+  </producedTypes>
+  <name>ЗаменаОтветственногоНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена ответственного на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаменаОтветственногоНаСкладах.Form.Форма</defaultForm>
+  <forms uuid="257686b7-9c4a-414b-982c-33d7e59fe365">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

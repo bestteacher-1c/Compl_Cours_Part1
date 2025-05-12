@@ -17,8 +17,6 @@
   <content>Constant.УчетПоСериям</content>
   <content>Constant.УчетПоСкладам</content>
   <content>CommonForm.ФормаКонстант</content>
-  <content>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</content>
-  <content>DataProcessor.УстановитьЦену</content>
   <content>InformationRegister.ОтносительныеКурсыВалют</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>

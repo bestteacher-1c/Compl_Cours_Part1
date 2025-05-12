@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>ДатаДействияКурса</name>
+    <name>Период</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -9,16 +9,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Дата</segments>
+      <segments>Период</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ДатаДействияКурсаРасширеннаяПодсказка</name>
+      <name>ПериодРасширеннаяПодсказка</name>
       <id>9</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -27,13 +22,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ДатаДействияКурсаКонтекстноеМеню</name>
+      <name>ПериодКонтекстноеМеню</name>
       <id>8</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -51,7 +41,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>КодВалюты</name>
+    <name>Валюта</name>
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -59,16 +49,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>КодВалюты</segments>
+      <segments>Валюта</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КодВалютыРасширеннаяПодсказка</name>
+      <name>ВалютаРасширеннаяПодсказка</name>
       <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -77,13 +62,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КодВалютыКонтекстноеМеню</name>
+      <name>ВалютаКонтекстноеМеню</name>
       <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -129,11 +109,6 @@
     <contextMenu>
       <name>КурсЧислительКонтекстноеМеню</name>
       <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -179,11 +154,6 @@
     <contextMenu>
       <name>КурсЗнаменательКонтекстноеМеню</name>
       <id>16</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -201,7 +171,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Ответственный</name>
+    <name>Сотрудник</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -209,16 +179,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ФИООтветственного</segments>
+      <segments>Сотрудник</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ОтветственныйРасширеннаяПодсказка</name>
+      <name>СотрудникРасширеннаяПодсказка</name>
       <id>12</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -227,13 +192,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ОтветственныйКонтекстноеМеню</name>
+      <name>СотрудникКонтекстноеМеню</name>
       <id>11</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -316,17 +276,14 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>КодВалюты</name>
+    <name>Валюта</name>
     <title>
       <key>ru</key>
-      <value>Код валюты</value>
+      <value>Валюта</value>
     </title>
     <id>2</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>3</length>
-      </stringQualifiers>
+      <types>CatalogRef.Валюты</types>
     </valueType>
     <view>
       <common>true</common>
@@ -358,17 +315,14 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФИООтветственного</name>
+    <name>Сотрудник</name>
     <title>
       <key>ru</key>
-      <value>ФИООтветственного</value>
+      <value>Сотрудник</value>
     </title>
     <id>4</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <types>CatalogRef.Сотрудники</types>
     </valueType>
     <view>
       <common>true</common>
@@ -378,10 +332,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Дата</name>
+    <name>Период</name>
     <title>
       <key>ru</key>
-      <value>Дата</value>
+      <value>Период</value>
     </title>
     <id>5</id>
     <valueType>

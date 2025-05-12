@@ -93,14 +93,14 @@
   <enums>Enum.Пол</enums>
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
-  <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ПолучитьСписокДожностейПодразделения</dataProcessors>
   <dataProcessors>DataProcessor.ПолучитьСписокПредыдущихМестРаботыСотрудника</dataProcessors>
   <dataProcessors>DataProcessor.ПолучитьСписокКонтактныхЛицКонтрагента</dataProcessors>
-  <dataProcessors>DataProcessor.УстановитьЦену</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
+  <dataProcessors>DataProcessor.УстановитьЦену</dataProcessors>
   <informationRegisters>InformationRegister.ОтносительныеКурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ФИОСотрудника</informationRegisters>

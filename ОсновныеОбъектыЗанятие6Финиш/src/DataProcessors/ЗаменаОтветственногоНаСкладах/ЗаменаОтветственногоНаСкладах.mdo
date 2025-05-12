@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc9ac421-72b5-4580-aa58-2f029246fac2">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff885374-8db4-48a3-9353-d00cc9ed54d9">
   <producedTypes>
-    <objectType typeId="e85471be-13ec-4d03-91b4-e90f4e00dc7a" valueTypeId="d0c97050-f19a-4d66-b3fa-baba3452683f"/>
-    <managerType typeId="cdb9d482-5692-4546-a7e3-ecc16d019d13" valueTypeId="f6d9d5fe-0897-4b86-be3e-fbb71c8f7492"/>
+    <objectType typeId="33e0827b-bcee-442c-95ff-d4a3436976b9" valueTypeId="43e00c1b-bbd2-4877-a021-d33593906987"/>
+    <managerType typeId="e92e998c-55e0-4d61-a8dd-bc47441e3bed" valueTypeId="b5ef6f4c-1823-4f58-be56-6422b9e75f2f"/>
   </producedTypes>
   <name>ЗаменаОтветственногоНаСкладах</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЗаменаОтветственногоНаСкладах.Form.Форма</defaultForm>
-  <forms uuid="eebb8701-9853-4429-8800-1110379eea66">
+  <forms uuid="257686b7-9c4a-414b-982c-33d7e59fe365">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

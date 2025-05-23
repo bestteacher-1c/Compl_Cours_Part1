@@ -207,4 +207,16 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="a334e85e-c090-424d-ba4b-cd62451b45ab">
+    <name>СписокКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список контрагентов</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Валюты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

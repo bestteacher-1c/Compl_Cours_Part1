@@ -558,7 +558,20 @@
     <savedData>true</savedData>
   </attributes>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>Catalog.Контрагенты.Command.СписокКонтрагентов</command>
+        <type>Added</type>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.ВалютаРасчетов</segments>
+        </commandParameter>
+        <group>FormNavigationPanelGoTo</group>
+        <index>0</index>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar>
       <cmiFragmentRecord>
         <command>Catalog.Валюты.Command.ПолучитьКодыИНаименованиеВалюты</command>
